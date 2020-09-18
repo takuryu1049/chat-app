@@ -1,0 +1,55 @@
+.wrapper{
+  display :flex;
+
+}
+
+
+
+.main-chat{
+  background-color:#ffffff;
+  width: calc(100vw - 300px);
+}
+
+/* side */
+/* parent */
+.side-bar{
+  background-color: #253141;
+  width: 300px;
+  height:100vh;
+}
+/*  parent end */
+
+/* child */
+.side-header{
+  height:100px;
+  padding: 0 20px;
+}
+
+.side-chat{
+  height: calc( 100vh - 100px);
+  background-color:#2F3E51;
+  padding: 0 20px;
+}
+/* child end */
+
+/* main */
+/* parent */
+.main-header{
+  height: 100px;
+  padding: 0 40px;
+}
+/* parent end */
+
+/* child */
+.center-chat{
+  height: calc(100vh - 190px);
+  background-color:#fafafa;
+  padding: 46px 40px 0;
+}
+
+.main-fotter{
+  height: 90px;
+  background-color:#dddddd;
+  padding: 20px 40px;
+}
+/* child end */
